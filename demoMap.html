@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_511af8b2ea63483d8ac2850aab024cd6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_511af8b2ea63483d8ac2850aab024cd6" ></div>
+        
+</body>
+<script>    
+    
+            var map_511af8b2ea63483d8ac2850aab024cd6 = L.map(
+                "map_511af8b2ea63483d8ac2850aab024cd6",
+                {
+                    center: [20.6564561, -103.3468714],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c3d5e6b3950146ae8e8c8b6d399239ba = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var marker_a85b1b246ad4475692058aee7c0a7a0e = L.marker(
+                [20.691847, -103.287139],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_184a0877bb504589ac72dbb9ebdc92c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_a85b1b246ad4475692058aee7c0a7a0e.setIcon(icon_184a0877bb504589ac72dbb9ebdc92c1);
+        
+    
+        var popup_ade243f49dc54209b357db5866f60da7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3527722d7baa44e2a164299f3bb866bd = $(`<div id="html_3527722d7baa44e2a164299f3bb866bd" style="width: 100.0%; height: 100.0%;">ARANDAS 11.89%</div>`)[0];
+            popup_ade243f49dc54209b357db5866f60da7.setContent(html_3527722d7baa44e2a164299f3bb866bd);
+        
+
+        marker_a85b1b246ad4475692058aee7c0a7a0e.bindPopup(popup_ade243f49dc54209b357db5866f60da7)
+        ;
+
+        
+    
+    
+            var marker_fdfbd5909dc84b84b4bae2b40106ec7d = L.marker(
+                [20.6731402, -103.3824539],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_040a4c66e045411a95d1e2517454e1b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fdfbd5909dc84b84b4bae2b40106ec7d.setIcon(icon_040a4c66e045411a95d1e2517454e1b4);
+        
+    
+        var popup_d822cb486a3d43bda12ee0b168c16328 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17e1efa5ba1743ca8bb74a683718ca1b = $(`<div id="html_17e1efa5ba1743ca8bb74a683718ca1b" style="width: 100.0%; height: 100.0%;">ARCOS VALLARTA 24.43%</div>`)[0];
+            popup_d822cb486a3d43bda12ee0b168c16328.setContent(html_17e1efa5ba1743ca8bb74a683718ca1b);
+        
+
+        marker_fdfbd5909dc84b84b4bae2b40106ec7d.bindPopup(popup_d822cb486a3d43bda12ee0b168c16328)
+        ;
+
+        
+    
+    
+            var marker_9dc3e3594408433980d318eecd4a208c = L.marker(
+                [20.686017, -103.351296],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_26ef0d6dab244658acc6c799b81e6ad8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_9dc3e3594408433980d318eecd4a208c.setIcon(icon_26ef0d6dab244658acc6c799b81e6ad8);
+        
+    
+        var popup_7963b8d443f0441d9bb794f46945136e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f95f3ef6e554f889f7ebe8d5af14d1c = $(`<div id="html_2f95f3ef6e554f889f7ebe8d5af14d1c" style="width: 100.0%; height: 100.0%;">CENTRO 19.72%</div>`)[0];
+            popup_7963b8d443f0441d9bb794f46945136e.setContent(html_2f95f3ef6e554f889f7ebe8d5af14d1c);
+        
+
+        marker_9dc3e3594408433980d318eecd4a208c.bindPopup(popup_7963b8d443f0441d9bb794f46945136e)
+        ;
+
+        
+    
+    
+            var marker_fab7b1a13ede423988e7867adfbe72c3 = L.marker(
+                [20.6629903, -103.4040153],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_de1bcfb903e2481285ce7a06e9e417a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_fab7b1a13ede423988e7867adfbe72c3.setIcon(icon_de1bcfb903e2481285ce7a06e9e417a8);
+        
+    
+        var popup_e327b357830f46dba4c0b5ec891146ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30d800ab2b1d4ea0b2606420180671eb = $(`<div id="html_30d800ab2b1d4ea0b2606420180671eb" style="width: 100.0%; height: 100.0%;">CHAPALITA 23.89%</div>`)[0];
+            popup_e327b357830f46dba4c0b5ec891146ab.setContent(html_30d800ab2b1d4ea0b2606420180671eb);
+        
+
+        marker_fab7b1a13ede423988e7867adfbe72c3.bindPopup(popup_e327b357830f46dba4c0b5ec891146ab)
+        ;
+
+        
+    
+    
+            var marker_edff207f984648bb837f40775de1c858 = L.marker(
+                [20.69562, -103.366739],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_0bc92a7159774330a442bcfc57d80c39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_edff207f984648bb837f40775de1c858.setIcon(icon_0bc92a7159774330a442bcfc57d80c39);
+        
+    
+        var popup_3b598ef1bca949d29ee5f2b36799cb2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3266a1a55a454e128f33b0fffd2c6322 = $(`<div id="html_3266a1a55a454e128f33b0fffd2c6322" style="width: 100.0%; height: 100.0%;">CHAPULTEPEC COUNTRY 16.08%</div>`)[0];
+            popup_3b598ef1bca949d29ee5f2b36799cb2f.setContent(html_3266a1a55a454e128f33b0fffd2c6322);
+        
+
+        marker_edff207f984648bb837f40775de1c858.bindPopup(popup_3b598ef1bca949d29ee5f2b36799cb2f)
+        ;
+
+        
+    
+    
+            var marker_3f39abdda9884ca7b4d762e36e488f6b = L.marker(
+                [20.687659, -103.299856],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_64bfe1caa2dd40f9ba2a77569f139938 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3f39abdda9884ca7b4d762e36e488f6b.setIcon(icon_64bfe1caa2dd40f9ba2a77569f139938);
+        
+    
+        var popup_f19c97fce5c4416ea66535e4659ce359 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01bbd3ad52b34341819fbf3b278c7e91 = $(`<div id="html_01bbd3ad52b34341819fbf3b278c7e91" style="width: 100.0%; height: 100.0%;">CIRCUNVALACIN OBLATOS 9.97%</div>`)[0];
+            popup_f19c97fce5c4416ea66535e4659ce359.setContent(html_01bbd3ad52b34341819fbf3b278c7e91);
+        
+
+        marker_3f39abdda9884ca7b4d762e36e488f6b.bindPopup(popup_f19c97fce5c4416ea66535e4659ce359)
+        ;
+
+        
+    
+    
+            var marker_8c3679d260844a9ea9a6ed0e5a1fa2bd = L.marker(
+                [20.707553, -103.383263],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_ed6807b175c148218536d07ee854cfad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8c3679d260844a9ea9a6ed0e5a1fa2bd.setIcon(icon_ed6807b175c148218536d07ee854cfad);
+        
+    
+        var popup_e1766a5ab51c45b7813a4912a23387c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bdaf3c363f040429b925a59f6ea9d3c = $(`<div id="html_6bdaf3c363f040429b925a59f6ea9d3c" style="width: 100.0%; height: 100.0%;">COLOMOS PROVIDENCIA 24.67%</div>`)[0];
+            popup_e1766a5ab51c45b7813a4912a23387c7.setContent(html_6bdaf3c363f040429b925a59f6ea9d3c);
+        
+
+        marker_8c3679d260844a9ea9a6ed0e5a1fa2bd.bindPopup(popup_e1766a5ab51c45b7813a4912a23387c7)
+        ;
+
+        
+    
+    
+            var marker_014ff4d15ae14ca8b4ce60263b2af1e3 = L.marker(
+                [20.733444, -103.353438],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_7232bafb554e42e1894f6626411bd021 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_014ff4d15ae14ca8b4ce60263b2af1e3.setIcon(icon_7232bafb554e42e1894f6626411bd021);
+        
+    
+        var popup_94d025c46c7149698094838c8acb8cb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7684e48271a467b82f0beb78237b0ff = $(`<div id="html_b7684e48271a467b82f0beb78237b0ff" style="width: 100.0%; height: 100.0%;">DIVISIN DEL NORTE 13.46%</div>`)[0];
+            popup_94d025c46c7149698094838c8acb8cb0.setContent(html_b7684e48271a467b82f0beb78237b0ff);
+        
+
+        marker_014ff4d15ae14ca8b4ce60263b2af1e3.bindPopup(popup_94d025c46c7149698094838c8acb8cb0)
+        ;
+
+        
+    
+    
+            var marker_b181996239d347a5a7ec787710d3c9fe = L.marker(
+                [20.71472, -103.318197],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_7565a825e8da4930996ac4f5dcf44dda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_b181996239d347a5a7ec787710d3c9fe.setIcon(icon_7565a825e8da4930996ac4f5dcf44dda);
+        
+    
+        var popup_70e07dca764f49dc9e5cf80f66723f68 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8612ab50bddb46e48514012d85a32cfe = $(`<div id="html_8612ab50bddb46e48514012d85a32cfe" style="width: 100.0%; height: 100.0%;">ESTADIO (INFONAVIT) 10.82%</div>`)[0];
+            popup_70e07dca764f49dc9e5cf80f66723f68.setContent(html_8612ab50bddb46e48514012d85a32cfe);
+        
+
+        marker_b181996239d347a5a7ec787710d3c9fe.bindPopup(popup_70e07dca764f49dc9e5cf80f66723f68)
+        ;
+
+        
+    
+    
+            var marker_ce5add9848874db0964d896a36527358 = L.marker(
+                [20.652725, -103.39222],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_88123ab3ba674ac19a020bc5fcdf79af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ce5add9848874db0964d896a36527358.setIcon(icon_88123ab3ba674ac19a020bc5fcdf79af);
+        
+    
+        var popup_dfadd03ba1bb411e8b715e84ddd7dfa7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3afaac9373814d9a8e4afc83eef1ea9e = $(`<div id="html_3afaac9373814d9a8e4afc83eef1ea9e" style="width: 100.0%; height: 100.0%;">EXPO GUADALAJARA 25.57%</div>`)[0];
+            popup_dfadd03ba1bb411e8b715e84ddd7dfa7.setContent(html_3afaac9373814d9a8e4afc83eef1ea9e);
+        
+
+        marker_ce5add9848874db0964d896a36527358.bindPopup(popup_dfadd03ba1bb411e8b715e84ddd7dfa7)
+        ;
+
+        
+    
+    
+            var marker_6cd4a46433534795a4d270e2587cdd00 = L.marker(
+                [20.675718, -103.325493],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_791144f32e5b4435b38fde8af798dd34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6cd4a46433534795a4d270e2587cdd00.setIcon(icon_791144f32e5b4435b38fde8af798dd34);
+        
+    
+        var popup_9f3184370e874927a7f029ac8661fbca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60a494ded0ce4f67bd856456807cd3c2 = $(`<div id="html_60a494ded0ce4f67bd856456807cd3c2" style="width: 100.0%; height: 100.0%;">OBLATOS 8.88%</div>`)[0];
+            popup_9f3184370e874927a7f029ac8661fbca.setContent(html_60a494ded0ce4f67bd856456807cd3c2);
+        
+
+        marker_6cd4a46433534795a4d270e2587cdd00.bindPopup(popup_9f3184370e874927a7f029ac8661fbca)
+        ;
+
+        
+    
+    
+            var marker_787e75ecee85492c923efa374fd29288 = L.marker(
+                [20.659607, -103.348463],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_8f501ecdc27345e8863a2430d194c7ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_787e75ecee85492c923efa374fd29288.setIcon(icon_8f501ecdc27345e8863a2430d194c7ce);
+        
+    
+        var popup_3c99a1dfa5ee4efe92009edc4eef6998 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5501c70cb253402ea1cb626675132471 = $(`<div id="html_5501c70cb253402ea1cb626675132471" style="width: 100.0%; height: 100.0%;">PARQUE AGUA AZUL 0.0%</div>`)[0];
+            popup_3c99a1dfa5ee4efe92009edc4eef6998.setContent(html_5501c70cb253402ea1cb626675132471);
+        
+
+        marker_787e75ecee85492c923efa374fd29288.bindPopup(popup_3c99a1dfa5ee4efe92009edc4eef6998)
+        ;
+
+        
+    
+    
+            var marker_d185e77901bf420297a3cea2b7d9eee8 = L.marker(
+                [20.712253, -103.373351],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_769d0f78fdcf4cb7af136f92f3785615 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_d185e77901bf420297a3cea2b7d9eee8.setIcon(icon_769d0f78fdcf4cb7af136f92f3785615);
+        
+    
+        var popup_9854199e3f9a4f9d95b4f2134ac3b184 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_38dd4c4206244f36abb723d54fc97e54 = $(`<div id="html_38dd4c4206244f36abb723d54fc97e54" style="width: 100.0%; height: 100.0%;">PARQUE VILA CAMACHO 15.74%</div>`)[0];
+            popup_9854199e3f9a4f9d95b4f2134ac3b184.setContent(html_38dd4c4206244f36abb723d54fc97e54);
+        
+
+        marker_d185e77901bf420297a3cea2b7d9eee8.bindPopup(popup_9854199e3f9a4f9d95b4f2134ac3b184)
+        ;
+
+        
+    
+    
+            var marker_49c05783e6e04fb19cd66ecc01acff52 = L.marker(
+                [20.69971, -103.384159],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_819711018cf041d298ff25e8753f9281 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_49c05783e6e04fb19cd66ecc01acff52.setIcon(icon_819711018cf041d298ff25e8753f9281);
+        
+    
+        var popup_8d842b82420d4a4ca629da9b76886507 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a6cd64c314244a86a367efe99cd9430b = $(`<div id="html_a6cd64c314244a86a367efe99cd9430b" style="width: 100.0%; height: 100.0%;">PROVIDENCIA 24.58%</div>`)[0];
+            popup_8d842b82420d4a4ca629da9b76886507.setContent(html_a6cd64c314244a86a367efe99cd9430b);
+        
+
+        marker_49c05783e6e04fb19cd66ecc01acff52.bindPopup(popup_8d842b82420d4a4ca629da9b76886507)
+        ;
+
+        
+    
+    
+            var marker_97aa5d2bbce54226bd15411468daa4fc = L.marker(
+                [20.722245, -103.310597],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_d836e902eb234410ab091c95d2318806 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_97aa5d2bbce54226bd15411468daa4fc.setIcon(icon_d836e902eb234410ab091c95d2318806);
+        
+    
+        var popup_5a554ca775a04d969173818cb605057d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a95d0d354aa46c381273203dfc587d5 = $(`<div id="html_3a95d0d354aa46c381273203dfc587d5" style="width: 100.0%; height: 100.0%;">ZOOLGICO 12.74%</div>`)[0];
+            popup_5a554ca775a04d969173818cb605057d.setContent(html_3a95d0d354aa46c381273203dfc587d5);
+        
+
+        marker_97aa5d2bbce54226bd15411468daa4fc.bindPopup(popup_5a554ca775a04d969173818cb605057d)
+        ;
+
+        
+    
+    
+            var marker_5fc7a6314eb04db0aeaba4152c919839 = L.marker(
+                [20.664205, -103.433552],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_457fefc8d6414718a8666ddd1da4a8a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5fc7a6314eb04db0aeaba4152c919839.setIcon(icon_457fefc8d6414718a8666ddd1da4a8a6);
+        
+    
+        var popup_0ea21f8256ee4449afabb9ae271ce735 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f29a1bcf964342c3a586bdbc82e29ddb = $(`<div id="html_f29a1bcf964342c3a586bdbc82e29ddb" style="width: 100.0%; height: 100.0%;">ARCOS DE GUADALUPE 24.72%</div>`)[0];
+            popup_0ea21f8256ee4449afabb9ae271ce735.setContent(html_f29a1bcf964342c3a586bdbc82e29ddb);
+        
+
+        marker_5fc7a6314eb04db0aeaba4152c919839.bindPopup(popup_0ea21f8256ee4449afabb9ae271ce735)
+        ;
+
+        
+    
+    
+            var marker_4c1fec325a094832859e999530e4e611 = L.marker(
+                [20.740202, -103.40751],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_00dbb6ae549740df96d6fbfbd4ff663d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_4c1fec325a094832859e999530e4e611.setIcon(icon_00dbb6ae549740df96d6fbfbd4ff663d);
+        
+    
+        var popup_a896ab25e4f344e49a58d6d0195fa910 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e38e28a406474d74b5acca3a89c5f343 = $(`<div id="html_e38e28a406474d74b5acca3a89c5f343" style="width: 100.0%; height: 100.0%;">ARCOS DE ZAPOPAN 15.84%</div>`)[0];
+            popup_a896ab25e4f344e49a58d6d0195fa910.setContent(html_e38e28a406474d74b5acca3a89c5f343);
+        
+
+        marker_4c1fec325a094832859e999530e4e611.bindPopup(popup_a896ab25e4f344e49a58d6d0195fa910)
+        ;
+
+        
+    
+    
+            var marker_612b88351eb347b7b83b6ab117638549 = L.marker(
+                [20.613353, -103.45472],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_e66fa9c3a4704478b87f26fb1da0f94e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_612b88351eb347b7b83b6ab117638549.setIcon(icon_e66fa9c3a4704478b87f26fb1da0f94e);
+        
+    
+        var popup_ee17e598f07841bf81dc96f00f0b44fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8a24f49f0574c378cdb9a0eff7578b6 = $(`<div id="html_b8a24f49f0574c378cdb9a0eff7578b6" style="width: 100.0%; height: 100.0%;">BUGAMBILIAS COUNTRY 26.75%</div>`)[0];
+            popup_ee17e598f07841bf81dc96f00f0b44fd.setContent(html_b8a24f49f0574c378cdb9a0eff7578b6);
+        
+
+        marker_612b88351eb347b7b83b6ab117638549.bindPopup(popup_ee17e598f07841bf81dc96f00f0b44fd)
+        ;
+
+        
+    
+    
+            var marker_0b1f129c734a49ee825660bd1f39ec6e = L.marker(
+                [20.615991, -103.40047],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_3880063b6a4845e8bd75ee4da96d39cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0b1f129c734a49ee825660bd1f39ec6e.setIcon(icon_3880063b6a4845e8bd75ee4da96d39cd);
+        
+    
+        var popup_b3432f6700264b8983bb1eafc3e9a000 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b598b9ae2c9749afaa8e60a29fbd3a3c = $(`<div id="html_b598b9ae2c9749afaa8e60a29fbd3a3c" style="width: 100.0%; height: 100.0%;">CERRO DEL TESORO 33.82%</div>`)[0];
+            popup_b3432f6700264b8983bb1eafc3e9a000.setContent(html_b598b9ae2c9749afaa8e60a29fbd3a3c);
+        
+
+        marker_0b1f129c734a49ee825660bd1f39ec6e.bindPopup(popup_b3432f6700264b8983bb1eafc3e9a000)
+        ;
+
+        
+    
+    
+            var marker_3105ea1458c14ea98cd399747d7461c3 = L.marker(
+                [20.721715, -103.345168],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_dd0625f529524623a7eccbae148ea89a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3105ea1458c14ea98cd399747d7461c3.setIcon(icon_dd0625f529524623a7eccbae148ea89a);
+        
+    
+        var popup_145ab59c4149431c8d6b3d3cf25f1e7a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e94ab1f1ff4436595b99dc85ef04256 = $(`<div id="html_8e94ab1f1ff4436595b99dc85ef04256" style="width: 100.0%; height: 100.0%;">EL BATAN 8.21%</div>`)[0];
+            popup_145ab59c4149431c8d6b3d3cf25f1e7a.setContent(html_8e94ab1f1ff4436595b99dc85ef04256);
+        
+
+        marker_3105ea1458c14ea98cd399747d7461c3.bindPopup(popup_145ab59c4149431c8d6b3d3cf25f1e7a)
+        ;
+
+        
+    
+    
+            var marker_864a0e40ec2d4eaf8879b20532599c46 = L.marker(
+                [20.733629, -103.414306],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_c1d93090b4eb4841905df47d94f631fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_864a0e40ec2d4eaf8879b20532599c46.setIcon(icon_c1d93090b4eb4841905df47d94f631fa);
+        
+    
+        var popup_54f33a3377394297b70da3227c142016 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2cdd5f3c694435987e10244007e6e1a = $(`<div id="html_b2cdd5f3c694435987e10244007e6e1a" style="width: 100.0%; height: 100.0%;">LA TUZANIA 11.87%</div>`)[0];
+            popup_54f33a3377394297b70da3227c142016.setContent(html_b2cdd5f3c694435987e10244007e6e1a);
+        
+
+        marker_864a0e40ec2d4eaf8879b20532599c46.bindPopup(popup_54f33a3377394297b70da3227c142016)
+        ;
+
+        
+    
+    
+            var marker_984848c57de94be39baf0449c109d41b = L.marker(
+                [20.820223, -103.445076],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_deb6d66d5f6e4b7bb4b9a8821cd64271 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_984848c57de94be39baf0449c109d41b.setIcon(icon_deb6d66d5f6e4b7bb4b9a8821cd64271);
+        
+    
+        var popup_9f555504720c491d8b73ca8a97401e3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec0e566e16bb4acaa0a01d43677c7aa0 = $(`<div id="html_ec0e566e16bb4acaa0a01d43677c7aa0" style="width: 100.0%; height: 100.0%;">LOS MOLINOS 15.89%</div>`)[0];
+            popup_9f555504720c491d8b73ca8a97401e3d.setContent(html_ec0e566e16bb4acaa0a01d43677c7aa0);
+        
+
+        marker_984848c57de94be39baf0449c109d41b.bindPopup(popup_9f555504720c491d8b73ca8a97401e3d)
+        ;
+
+        
+    
+    
+            var marker_0424c0bd07a64177b0ec61891ab153d0 = L.marker(
+                [20.746006, -103.419281],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_7d24aea8bec649c2927007860ca4afcd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_0424c0bd07a64177b0ec61891ab153d0.setIcon(icon_7d24aea8bec649c2927007860ca4afcd);
+        
+    
+        var popup_a8d6622c4c2f465991d2c9f8b862a32d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc59ff9bd0ef49b9ab31ddc44fe05a49 = $(`<div id="html_dc59ff9bd0ef49b9ab31ddc44fe05a49" style="width: 100.0%; height: 100.0%;">PARQUES DE ZAPOPAN 18.81%</div>`)[0];
+            popup_a8d6622c4c2f465991d2c9f8b862a32d.setContent(html_dc59ff9bd0ef49b9ab31ddc44fe05a49);
+        
+
+        marker_0424c0bd07a64177b0ec61891ab153d0.bindPopup(popup_a8d6622c4c2f465991d2c9f8b862a32d)
+        ;
+
+        
+    
+    
+            var marker_f649e6d4a59742ea8989564c84b944bd = L.marker(
+                [20.656983, -103.435182],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_4daf5e6c9f7545f5a9476a0b5f7b91c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f649e6d4a59742ea8989564c84b944bd.setIcon(icon_4daf5e6c9f7545f5a9476a0b5f7b91c1);
+        
+    
+        var popup_c3f2a7e1b97340fc855f6e9f2e577c5f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_405e2e5f62b149d18ef5d5f2a60f91cb = $(`<div id="html_405e2e5f62b149d18ef5d5f2a60f91cb" style="width: 100.0%; height: 100.0%;">PLAZA GUADALUPE 34.28%</div>`)[0];
+            popup_c3f2a7e1b97340fc855f6e9f2e577c5f.setContent(html_405e2e5f62b149d18ef5d5f2a60f91cb);
+        
+
+        marker_f649e6d4a59742ea8989564c84b944bd.bindPopup(popup_c3f2a7e1b97340fc855f6e9f2e577c5f)
+        ;
+
+        
+    
+    
+            var marker_39439af27d6f4532a59704dd19682c90 = L.marker(
+                [20.716536, -103.419516],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_2d21edc97fbe45a1b04b8b7e0279a921 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_39439af27d6f4532a59704dd19682c90.setIcon(icon_2d21edc97fbe45a1b04b8b7e0279a921);
+        
+    
+        var popup_c3ad4809cbdc432eaa6b39f98646fd1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f9ee82458d74b0fb5f2e7cc3fd91a66 = $(`<div id="html_2f9ee82458d74b0fb5f2e7cc3fd91a66" style="width: 100.0%; height: 100.0%;">PUERTA DE HIERRO 23.92%</div>`)[0];
+            popup_c3ad4809cbdc432eaa6b39f98646fd1c.setContent(html_2f9ee82458d74b0fb5f2e7cc3fd91a66);
+        
+
+        marker_39439af27d6f4532a59704dd19682c90.bindPopup(popup_c3ad4809cbdc432eaa6b39f98646fd1c)
+        ;
+
+        
+    
+    
+            var marker_4ca3d558351b4639b35cafeaf503dfa8 = L.marker(
+                [20.725396, -103.466159],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_ef763e2cdf2f4e33a55575e5c69f54a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4ca3d558351b4639b35cafeaf503dfa8.setIcon(icon_ef763e2cdf2f4e33a55575e5c69f54a4);
+        
+    
+        var popup_51c1371839cb445099742c553d2f32db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a910ab58bfd49698b36e7f70cd6666e = $(`<div id="html_5a910ab58bfd49698b36e7f70cd6666e" style="width: 100.0%; height: 100.0%;">SOLARES RESIDENCIAL 31.36%</div>`)[0];
+            popup_51c1371839cb445099742c553d2f32db.setContent(html_5a910ab58bfd49698b36e7f70cd6666e);
+        
+
+        marker_4ca3d558351b4639b35cafeaf503dfa8.bindPopup(popup_51c1371839cb445099742c553d2f32db)
+        ;
+
+        
+    
+    
+            var marker_6fd96cc3dba74ba8842c7831ff07ddf5 = L.marker(
+                [20.740127, -103.365196],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_d32183a508524a62b2e18d5ef36a5cbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_6fd96cc3dba74ba8842c7831ff07ddf5.setIcon(icon_d32183a508524a62b2e18d5ef36a5cbb);
+        
+    
+        var popup_d2b0838e516a4fdab6d24287be372737 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_85e7ea7a543949099ac38b76721ef8f2 = $(`<div id="html_85e7ea7a543949099ac38b76721ef8f2" style="width: 100.0%; height: 100.0%;">TABACHINES 16.2%</div>`)[0];
+            popup_d2b0838e516a4fdab6d24287be372737.setContent(html_85e7ea7a543949099ac38b76721ef8f2);
+        
+
+        marker_6fd96cc3dba74ba8842c7831ff07ddf5.bindPopup(popup_d2b0838e516a4fdab6d24287be372737)
+        ;
+
+        
+    
+    
+            var marker_9dd47829a92c43bb912bf8a5e78c9c5a = L.marker(
+                [20.724914, -103.384797],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_7650dd34edcc4c40b39ea945f86d2013 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9dd47829a92c43bb912bf8a5e78c9c5a.setIcon(icon_7650dd34edcc4c40b39ea945f86d2013);
+        
+    
+        var popup_51804bdf20674d89a517331bceb20e58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1a5225d3b35470890530315c0410c3f = $(`<div id="html_e1a5225d3b35470890530315c0410c3f" style="width: 100.0%; height: 100.0%;">TEPEYAC 10.0%</div>`)[0];
+            popup_51804bdf20674d89a517331bceb20e58.setContent(html_e1a5225d3b35470890530315c0410c3f);
+        
+
+        marker_9dd47829a92c43bb912bf8a5e78c9c5a.bindPopup(popup_51804bdf20674d89a517331bceb20e58)
+        ;
+
+        
+    
+    
+            var marker_b8eda6fa1d74459da5a0abc4d6f2cb08 = L.marker(
+                [20.798347, -103.486284],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_17d5a65554f6407cb39900009a49cf20 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_b8eda6fa1d74459da5a0abc4d6f2cb08.setIcon(icon_17d5a65554f6407cb39900009a49cf20);
+        
+    
+        var popup_0ff5d54cf1724c5fa81c15a36a523f91 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1ed58dbd8a8245618c6794b1768a73c6 = $(`<div id="html_1ed58dbd8a8245618c6794b1768a73c6" style="width: 100.0%; height: 100.0%;">TESISTAN 11.63%</div>`)[0];
+            popup_0ff5d54cf1724c5fa81c15a36a523f91.setContent(html_1ed58dbd8a8245618c6794b1768a73c6);
+        
+
+        marker_b8eda6fa1d74459da5a0abc4d6f2cb08.bindPopup(popup_0ff5d54cf1724c5fa81c15a36a523f91)
+        ;
+
+        
+    
+    
+            var marker_0db9d8e7434b442bbfabde46718a33a7 = L.marker(
+                [20.725045, -103.447149],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_e653795e80b14606973ec6079bbb0fa4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0db9d8e7434b442bbfabde46718a33a7.setIcon(icon_e653795e80b14606973ec6079bbb0fa4);
+        
+    
+        var popup_4075179789f84c3995c1337a9d651542 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4040590ab2be4ad3b50b7892d5ec1d9d = $(`<div id="html_4040590ab2be4ad3b50b7892d5ec1d9d" style="width: 100.0%; height: 100.0%;">VALLE REAL 31.89%</div>`)[0];
+            popup_4075179789f84c3995c1337a9d651542.setContent(html_4040590ab2be4ad3b50b7892d5ec1d9d);
+        
+
+        marker_0db9d8e7434b442bbfabde46718a33a7.bindPopup(popup_4075179789f84c3995c1337a9d651542)
+        ;
+
+        
+    
+    
+            var marker_d806e5afbde54d8ba815001d801f9cf9 = L.marker(
+                [20.660848, -103.454602],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_8a9c2e6e958344279107e3a6013f3af1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_d806e5afbde54d8ba815001d801f9cf9.setIcon(icon_8a9c2e6e958344279107e3a6013f3af1);
+        
+    
+        var popup_4271b7dfa84046628f67cfb66b0242f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_afff4f96034745a4a6e96e7b7a4376da = $(`<div id="html_afff4f96034745a4a6e96e7b7a4376da" style="width: 100.0%; height: 100.0%;">VOLCAN DEL COLLI 18.55%</div>`)[0];
+            popup_4271b7dfa84046628f67cfb66b0242f5.setContent(html_afff4f96034745a4a6e96e7b7a4376da);
+        
+
+        marker_d806e5afbde54d8ba815001d801f9cf9.bindPopup(popup_4271b7dfa84046628f67cfb66b0242f5)
+        ;
+
+        
+    
+    
+            var marker_6291df63b5db49f1a17b306e7902997b = L.marker(
+                [20.723271, -103.39732],
+                {}
+            ).addTo(map_511af8b2ea63483d8ac2850aab024cd6);
+        
+    
+            var icon_7be5d2f9f2ae43f8a87d344fe0480af9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_6291df63b5db49f1a17b306e7902997b.setIcon(icon_7be5d2f9f2ae43f8a87d344fe0480af9);
+        
+    
+        var popup_952120e650d34f8ca98e16e655bfe55d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3bb23a815c44fe88b68b9ffeca79af6 = $(`<div id="html_e3bb23a815c44fe88b68b9ffeca79af6" style="width: 100.0%; height: 100.0%;">ZAPOPAN CENTRO 16.69%</div>`)[0];
+            popup_952120e650d34f8ca98e16e655bfe55d.setContent(html_e3bb23a815c44fe88b68b9ffeca79af6);
+        
+
+        marker_6291df63b5db49f1a17b306e7902997b.bindPopup(popup_952120e650d34f8ca98e16e655bfe55d)
+        ;
+
+        
+    
+</script>

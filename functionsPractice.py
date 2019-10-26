@@ -5,12 +5,10 @@ def primeNumber(number):
             index = index + 1
         if index == number:
             return True
-        else:
-            return False
-    else:
         return False
+    return False
 
 
-for prime in range(100000):
+for prime in range(1000, 10000):
     if primeNumber(prime):
         print(prime)
